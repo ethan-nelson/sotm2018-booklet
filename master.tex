@@ -1,0 +1,104 @@
+\documentclass[
+version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt,openany]{scrbook}
+%\pdfminorversion=4
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{dejavu}
+
+\usepackage{ifmtarg}
+\usepackage{ifthen}
+\usepackage{etoolbox} % \ifstrempty
+
+\usepackage{geometry}
+\geometry{%a6paper
+paperwidth=125mm, paperheight=168mm, 
+portrait,
+top=22mm, inner=22mm, outer=20mm, bottom=25mm,
+headsep=3mm, footskip=12mm
+}
+
+\usepackage{ragged2e} % nicer typesetting (hyphenation) for non raggedright and raggedleft
+\usepackage{lscape}
+\setlength{\parskip}{0pt}
+
+\usepackage{relsize}
+
+\clubpenalty=10000
+\widowpenalty=10000 
+\displaywidowpenalty=10000
+
+\usepackage[letterspace=16]{microtype}
+
+\usepackage{graphicx} % graphics
+
+% search path for images
+\graphicspath{{images-print/}{icons/}{extra-pages/}{wallpaper/}}
+\usepackage{wrapfig}  % sponsor logos wrapped with text
+
+\usepackage{tabu}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage[table,cymk]{xcolor}
+\usepackage{colortbl}
+
+% embed PDF pages
+% pdfpages must not be loaded before colortbl!
+\usepackage{pdfpages}
+
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{array}
+
+\usepackage{refcount} % calculation of the page where the map is located
+
+% page background
+\usepackage[manualmark]{scrlayer-scrpage}
+\pagestyle{scrplain}
+
+\newcommand{\acro}[1]{{\textsmaller{#1}}} % macro for abbreviations with more than one capitalised letter
+
+% headings in DejaVu Sans Condensed
+\addtokomafont{sectioning}{\fontfamily{DejaVuSansCondensed-TLF}\selectfont}
+\addtokomafont{pageheadfoot}{\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}}
+\addtokomafont{pagenumber}{\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}}
+
+
+% title/metadata
+\title{State of the Map 2018}
+\subtitle{Programme}
+\author{OpenStreetMap Foundation}
+\date{\today}
+
+\clearscrheadings
+
+% page numbers
+\cfoot[\begin{small}\pagemark\end{small}]{\begin{small}\pagemark\end{small}}
+\ofoot[]{}
+\ifoot[]{}
+\pagestyle{scrplain}
+
+\linespread{1.15}
+
+% include our custom macros
+\input{abstract-commands}
+
+
+\begin{document}
+\lsstyle
+\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
+ 
+\pagestyle{cropmarksstyle}
+\begin{titlepage}
+  \thispagestyle{titlestyle}
+  \null
+\end{titlepage}
+\pagestyle{cropmarksstyle}
+
+\selectlanguage{english}
+\input{contents}
+\input{welcome}
+\input{table-saturday}
+\input{legal}
+\input{back_cover}
+
+\end{document}

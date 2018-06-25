@@ -1,0 +1,56 @@
+\newpage
+% new layer for map
+\DeclareNewLayer[background, oddorevenpage,  width=125mm,%
+height=169mm, contents={%
+  %\includegraphics{wallpaper/stadtplan.pdf}%
+}]{floorplana6}
+\newpairofpagestyles[scrheadings]{floorplan}{}
+\AddLayersAtBeginOfPageStyle{floorplan}{floorplana6}
+\pagestyle{floorplan}
+\null
+\label{overviewmap}
+
+\newpage
+\section*{Legal Notice}
+\label{impressum}
+\pagestyle{cropmarksstyle}
+
+\RaggedRight
+{\small
+  State of the Map 2018 is jointly organised by the OpenStreetMap Foundation and
+  Politecnico di Milano.
+
+\vspace{0.5em}
+\newlength\logoHeight
+\setlength{\logoHeight}{2.5\baselineskip}
+\includegraphics[height=\logoHeight]{osm-logo.pdf}
+\hspace{1em}
+
+\vspace{0.5em}
+\noindent Responsible for the content:\\
+OpenStreetMap Foundation\\
+132 Maney Hill Road\\
+Sutton Coldfield\\
+West Midlands B72 1JU\\
+United Kingdom
+
+\vspace{0.5em}
+\noindent This booklet has been prepared using \LaTeX\ and 
+other free and open source software.\\
+Source code: github.com/osmfoundation/sotm2018-booklet\\
+\noindent Typesetting and layout: Michael Reichert\\
+Map data: \includegraphics[height=7pt]{copyright}~Open\-Street\-Map contributors, osm.org/copyright\\
+Icons in the schedule: SJJB Management, CC-0\\
+Copyeditors: TBA\\
+
+\vspace{1em}
+\noindent \begin{minipage}[htbp]{0.2\textwidth}
+\noindent\includegraphics[width=\linewidth]{cc-by-sa-pdf}
+\end{minipage}
+\hfill
+\begin{minipage}[hbtp]{0.74\textwidth}\RaggedRight
+  {\small
+    The this booklet may be re-used under the Creative Commons Attribution Share-Alike 3.0 license.
+    This does not apply to advertisements and logos of companies and organisations.
+  }
+\end{minipage}
