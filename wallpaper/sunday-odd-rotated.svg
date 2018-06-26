@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="444.09451"
-   height="597.87402"
+   width="444.09448"
+   height="595.27557"
    id="svg2"
    inkscape:version="0.91 r13725"
    sodipodi:docname="sunday-odd-rotated.svg"
-   viewBox="0 0 416.33861 560.50689">
+   viewBox="0 0 416.33858 558.07084">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,9 +27,9 @@
      inkscape:window-height="1031"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-429.17029"
-     inkscape:cy="-413.35908"
+     inkscape:zoom="0.5"
+     inkscape:cx="214.64213"
+     inkscape:cy="309.53437"
      inkscape:current-layer="svg2"
      inkscape:window-x="0"
      inkscape:window-y="25"
@@ -46,60 +46,64 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs6" />
   <path
-     d="m 33.218506,0 0,17.716529"
+     d="m 33.218506,-2.8610231e-5 0,16.609252610231"
      id="path4591"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="M 5.6444446e-7,35.433069 17.716536,35.433069"
+     d="M 5.6444444e-7,33.218477 17.716536,33.218477"
      id="path4593"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
   <path
-     d="m 382.01278,0 0,17.716529"
+     d="m 382.01278,-2.8610231e-5 0,16.609252610231"
      id="path4595"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 416.33859,35.433069 -17.71654,0"
+     d="m 416.33859,33.218477 -17.71654,0"
      id="path4597"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
   <path
-     d="m 382.01278,560.50689 0,-17.71653"
+     d="m 382.01278,558.07086 0,-17.71653"
      id="path4601"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 398.62205,525.0738 17.71654,2e-5"
+     d="m 398.62205,524.85236 17.71654,2e-5"
      id="path4603"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
   <path
-     d="m 33.218506,542.79034 0,17.71655"
+     d="m 33.218506,540.35431 0,17.71655"
      id="path4605"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="M 17.716536,525.0738 5.6444446e-7,525.07382"
+     d="M 17.716536,524.85236 5.6444444e-7,524.85238"
      id="path4607"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
   <rect
      style="fill:#009246;fill-opacity:1;fill-rule:evenodd;stroke:none"
      id="rect3022-31"
-     y="237.1801"
+     y="234.74406"
      x="362.08167"
      ry="0"
      height="124.01575"
@@ -110,10 +114,10 @@
      id="text3838-4"
      transform="matrix(0,-1,1,0,0,0)"
      y="374.22321"
-     x="-320.00635"
+     x="-317.57031"
      sodipodi:linespacing="0%"><tspan
        id="tspan3903"
        y="374.22321"
-       x="-320.00635"
+       x="-317.57031"
        style="fill:#ffffff;fill-opacity:1">Sunday</tspan></text>
 </svg>
