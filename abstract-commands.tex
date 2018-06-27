@@ -185,64 +185,49 @@ height=169mm, contents={%
 \definecolor{two}{HTML}{DDE2C6}
 \definecolor{academic}{HTML}{FFF9C5}
 \definecolor{four}{HTML}{8CD790}
-%\definecolor{eins}{cmyk}{ 0 .18 .06 .10}
-\definecolor{eins}{cmyk}{ 0 .13 .04 .08}
-\definecolor{zwei}{cmyk}{ .1 0 .17 .05}
-\definecolor{hellorange}{cmyk}{ 0 0.18 0.40 0.03}
-%\definecolor{aula}{cmyk}{ 0.2 0 0.05 0.13}
-\definecolor{aula}{cmyk}{ 0.13 0 0.04 0.11}
-\definecolor{geoblau}{cmyk}{ 0.24 .02 0 .01}
-\definecolor{dezentrot}{cmyk}{ 0 .24 0.29 .04}
-\definecolor{hellgelb}{cmyk}{ 0 .02 0.36 0}
-\definecolor{hellgruen}{cmyk}{ 0.10 .0 0.22 0.05}
+\definecolor{lightred}{cmyk}{0 .24 0.29 .04}
 
-% abstract at Wolfgang-Paul-Hörsaal
-\newcommand{\abstractWPH}[4]%
+% session at De Donato
+\newcommand{\abstractDeDonato}[4]%
 {%
-	\setabstract{#1}{#2}{#3}{#4}{aula}{WPH}
+	\setabstract{#1}{#2}{#3}{#4}{deDonato}{De Donato}
 }
 
-% abstract at Alfred-Philippson-Hörsaal
-\newcommand{\abstractAPH}[4]%
+% abstract at S.0.3
+\newcommand{\abstractTwo}[4]%
 {%
-	\setabstract{#1}{#2}{#3}{#4}{hellgelb}{APH}
+	\setabstract{#1}{#2}{#3}{#4}{two}{S.0.3}
 }
 
-% abstract at Hörsaal 2
-\newcommand{\abstractZwei}[4]%
+% abstract at S.1.3
+\newcommand{\abstractAcademic}[4]%
 {%
-	\setabstract{#1}{#2}{#3}{#4}{hellgruen}{HS 2 GZ}
+	\setabstract{#1}{#2}{#3}{#4}{academic}{S.1.3}
 }
 
-% abstract at Hörsaal 4
+% abstract at S.1.5
 \newcommand{\abstractVier}[4]%
 {%
-	\setabstract{#1}{#2}{#3}{#4}{geoblau}{HS 4 GZ}
-}
-
-% event at Mensa
-\newcommand{\abstractMensa}[4]%
-{%
-  \setabstract{#1}{#2}{#3}{#4}{dezentrot}{Mensa}
+	\setabstract{#1}{#2}{#3}{#4}{four}{S.1.5}
 }
 
 % abstract at a different location
 \newcommand{\abstractOther}[5]%
 {%
-	\setabstract{#1}{#2}{#3}{#4}{hellorange}{#5}
+	\setabstract{#1}{#2}{#3}{#4}{commongray}{#5}
 }
 
-% infobox for workshops (they don't have an abstract in the booklet)
+% box for workshops (they don't have an abstract in the booklet)
 \newcommand{\workshopbox}[3]%
 {%
 	% 1. titel
 	% 2. speaker
 	% 3. Room
 	\setlength\tabcolsep{0pt}
-	\noindent\fcolorbox{white}{dezentrot}{\parbox{\titleboxwidth}{%
+	\noindent\fcolorbox{white}{lightred}{\parbox{\titleboxwidth}{%
 			\noindent
 			\begin{tabu}{X[5L]r}
-				\emph{#2} % Sprecher
+				\emph{#2} % speaker
 				&
 				\talktime
 				\tabularnewline
@@ -264,7 +249,7 @@ height=169mm, contents={%
 \def\workshopsSection{workshopsSection}
 \def\abstractsSection{abstractsSection}
 
-% boxes for advertisement texts by our sponsors
+% boxes for text-only advertisement texts by our sponsors
 \newcommand{\sponsorenbox}[4]{%
   \setlength{\fboxwidth}{\textwidth}
   \advance\fboxwidth by -7.0pt
@@ -277,20 +262,23 @@ height=169mm, contents={%
   \abstractSponsorenbox{#1}{#2}{#3}{#4}{\abstractsSection}%
 }
 
-%% Sponsorenbox
-%% 1. Logo
-%% 2. Logobreite
-%% 3. Anzahl benötigter Zeilen
-%% 4. Text
+%% box for advertisment by a sponsor
+%% 1. logo
+%% 2. width of the logo
+%% 3. number of required lines of the logo (due to usage of wrapfigure)
+%% 4. text
 %% 5. Umfeld (\workshopsSection oder \abstractsSection}
 \makeatletter
-\newcommand{\abstractSponsorenbox}[5]{%
+\newcommand{\abstractSponsorbox}[5]{%
   \setlength{\fboxsep}{4.5pt}%
   \noindent%
   \ifthenelse{\equal{#5}{\workshopsSection}}{%
     \hspace{2.65pt}%
-  }{\hspace{-1pt}}%
-  \fcolorbox{gray}{white}{\parbox{\fboxwidth}{
+  }{%
+    \hspace{-1pt}%
+  }%
+  \fcolorbox{gray}{white}{%
+    \parbox{\fboxwidth}{
     \@ifmtarg{#1}{}{%
       \begin{wrapfigure}[#3]{r}[0pt]{#2}
         \centering\vspace{-1\baselineskip}
@@ -299,15 +287,17 @@ height=169mm, contents={%
     }
 
     \noindent #4
-  }}
+    }%
+  }
   \setlength{\fboxsep}{3pt}
 }
 \makeatother
 
-% Definitionen für Tagestablen
+% definition of column types for the schedule tables
 \newcolumntype{Z}[1]{>{\RaggedRight\arraybackslash}p{#1}}%
 \newcolumntype{C}[1]{>{\Centering\arraybackslash}p{#1}}%
 
+% common implementation of typesetting of a session in the tables
 \newcommand{\talkInternal}[2]{%
   \textbf{#1}
   \ifthenelse{\equal{#2}{}}{}{%
@@ -334,7 +324,6 @@ height=169mm, contents={%
   &
   \talkInternal{#1}{#2}%
 }%
-% Titel -- Redner
 
 
 \newcommand{\workshop}[3]%
@@ -358,7 +347,6 @@ height=169mm, contents={%
 \newcommand{\coffeespace}{\vspace{0.4em}}
 \newcommand{\workshopspace}{\vspace{0.5em}\\}
 
-% Farben definieren
+% define colors
 \definecolor{commongray}{gray}{.9}
-%\vspace{-1.2em}
 \renewcommand{\arraystretch}{1.4}
