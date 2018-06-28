@@ -1,0 +1,516 @@
+\justifying
+\newpage
+
+\newsmalltimeslot{9:00}
+% K001
+% room: De Donato
+% slot: 2
+\abstractDeDonato{}%
+{Welcome}%
+{}%
+{}
+
+\newsmalltimeslot{9:30}
+% K001
+% room: De Donato
+% slot: 2
+\abstractDeDonato{Kate Chapman, Heather Leson}%
+{OpenStreetMap—Now and into the Future}%
+{}%
+{%
+  The beauty of OpenStreetMap is the variety of people contributing to the tapestry of the map.
+  Those people have different backgrounds, motivations and reasons to contribute. We have come a
+  long way from a few people meeting in person to a global community. While OSM is unique it does
+  have a place amongst the other projects and organizations contributing in the open space. How do
+  we fit into this place in the future? What parts of the path must we forge on our own and which
+  can we learn from others? Does the project have a finite life cycle? How can we as a community
+  think strategically to ensure we remain relevant? Let’s all continue to work together, now and
+  into the future.%
+}
+% ------------------------------------
+
+\newsmalltimeslot{10:00}
+% T079
+% room: De Donato
+% slot: 3
+\abstractDeDonato{Lukas Martinelli}%
+{Can we validate every change on OSM?}%
+{}%
+{%
+  OpenStreetMap receives 30,000 changesets everyday. Bad edits vary from novice mapping mistakes to
+  intentional vandalism. Through Mapbox, hundreds of millions of users now view the map. Data
+  quality has become crucial; we cannot afford to have our products affected by bad changes. We will
+  present how we have built bulletproof protection against the daily vandalism we see.
+
+  We will focus on what we have learned from our past approaches to catching vandalism. We will also
+  discuss the creation of a new unit of change that scales better than both changesets and individual
+  features. We have taken on the challenge of validating every edit to the map in the quickest time
+  possible while only consuming upstream edits. In addition, we will explore how the community can
+  join and benefit from our validation efforts.
+  
+  We are entering into an exciting new age for OSM with an unprecedented number of users consuming it
+  daily, and we are excited to help protect the data quality of OpenStreetMap.%
+}
+
+% T092
+% room: S.0.2
+% slot: 3
+\abstractTwo{Thomas Skowron}%
+{Making Maps Without Database}%
+{}%
+{%
+  The first step of processing OpenStreetMap data is loading it into a PostGIS database, only to
+  retrieve all of it later on. This talk proposes strategies and tools to generate maps without
+  using a database, which has performance benefits as well as better control about the result.%
+}
+% ------------------------------------
+
+\newtimeslot{11:30}
+
+% T076
+% room: De Donato
+% slot: 5
+\abstractDeDonato{Chad Blevins}%
+{Interpreting Imagery for OpenStreetMap}%
+{}%
+{%
+  At one point or another every mapper has seen something on imagery that’s hard to distinguish from
+  another feature, or is outright hard to describe.  Learning how your eyes and mind work together
+  to interpret imagery is an art and something we can all practice.  This session will walk through
+  examples of how you can associate imagery characteristics such as Shape, Size, Shadow, Time,
+  Texture, and Pattern to help mappers improve their mapping skills, and improve OpenStreetMap.  %
+}
+% T065
+% room: S.0.2
+% slot: 5
+\abstractTwo{Petr Pridal, Jiri Komarek}%
+{OpenMapTiles: Vector tiles from OpenStreetMap}%
+{}%
+{%
+  The OpenMapTiles is a free and open-source project, which makes it extremely easy to setup your
+  own OpenStreetMap tileserver with vector and raster tiles. Design your own custom maps with an
+  online editor or modify one of the beautiful open map styles. The maps are usable in web and
+  mobile apps (with SDKs including Leaflet, OpenLayers, Mapbox), in desktop GIS tools and printed
+  outputs.
+
+  Learn how to adapt the schema and make your own vector tiles with a customized selection of
+  OpenStreetMap tags or your own geodata - to display in the map the features you need - and how to
+  contribute to the development of OpenMapTiles.
+  
+  The entire world turned into vector tiles fits on a USB disk - and can be hosted on any laptop, used
+  offline, deployed on a regular hosting or on a private or public cloud. With Docker, you can run the
+  maps in a few minutes on any infrastructure. We support open-source and open-data communities by
+  offering forever free hosting on our global infrastructure.%
+}
+% T023
+% room: S.1.5
+% slot: 5
+\abstractFour{Paolo Angelelli}%
+{Qt to create OSM-based apps}%
+{}%
+{%
+  The aim of the talk is to introduce the mighty Qt framework
+  (https://en.wikipedia.org/wiki/Qt\_(software)) to the audience, then to drill down into its
+  QtLocation module.  The goal is to demonstrate the functionalities of the module and of its
+  OSM-backed plugins (osm, mapbox, mapboxgl) and how to easily pull together applications to do
+  mapping, routing, geocoding and search places of interest with the power of QML and of
+  OpenStreetMap.  These \emph{native} applications (as opposed to javascript-based or similar cross
+  platform frameworks) can then be deployed everywhere thanks to the power of Qt. This means
+  desktop, mobile and embedded platforms.%
+}
+% ------------------------------------
+
+\newtimeslot{12:00}
+% T017
+% room: De Donato
+% slot: 6
+\abstractDeDonato{Paul Desgranges}%
+{Advertising mapping: using OpenStreepMap for the protection of landscape }%
+{}%
+{%
+%   Based on what I did recently in the use of OSM to map advertising devices (with the idea of protecting landscapes from the invasion of advertising):
+%    - See 
+%   https://wiki.openstreetmap.org/wiki/User:Barnes38#.282015.2F2017.29_Outdoor_advertising.2FPublicit.C3.A9_Ext.C3.A9rieure
+%   - See  (French OpenData used in 2016 in cartography to figth against a french government decree project) https://wiki.openstreetmap.org/wiki/User:Barnes38#.28end_2015.2Fstart_2016.29_Cartography_for_Paysages_de_France
+%   - Participation to French SOTM 2017 in Avignon (1h30 session) https://wiki.openstreetmap.org/wiki/User:Barnes38#.282_au_4_juin_2017.29_SOTM_France_in_Avignon
+%   
+%   I wish to make a summary of the OSM mapping specification (key : advertising), a summary of the way this key is used by OSM contributors worldwide, and to present new ideas to how to used OSM for protection of landscape.
+% 
+%   Thank you 
+  % A version of the abstract written by Michael preserving the style but removing all the links which
+  % are unclickable on paper.
+  Based on what I did recently in the use of OSM to map advertising devices (with the idea of
+  protecting landscapes from the invasion of advertising).  I wish to make a summary of the OSM
+  mapping specification (key advertising), a summary of the way this key is used by OSM contributors
+  worldwide, and to present new ideas to how to used OSM for protection of landscape.
+%
+}
+% T115
+% room: S.0.2
+% slot: 6
+\abstractTwo{Alina Negreanu and Bogdan Gliga}%
+{Large Scale Deep Learning for Map Making}%
+{}%
+{%
+  In this talk, the Telenav OSM team talks about what we have learned from our experience building a
+  horizontally scalable deep learning pipeline that can process the >120 million images in the
+  OpenStreetCam database. We will offer a technical perspective about how we used state of the art
+  algorithms to detect a large number of traffic signs, extract road features like number of lanes
+  visible on a road, and accurately perform text recognition on signs. This technology is now open
+  source and available for anyone to use and improve upon!%
+}
+% W033
+% room: S.1.5
+% slot: 6
+% slot: 7
+\abstractFour{Paul Uithol}%
+{Field Mapping tools \& technologies}%
+{}%
+{%
+  If you want to get started on mapping things, be it data on schools, railway crossings, street
+  names, or something entirely different, it's good to think about the tools you intend to use
+  first. Especially if more people get involved! In this workshop, we'll demonstrate several topics
+  related to data collection, and get some hands-on experience on:
+
+  - Choosing what data to collect and why;
+  - What data collection and mapping tool to use when, such as Maps.me, OpenDataKit, or OpenMapKit;
+  - Creating a data model and forms;
+  - Establishing baseline data; review existing data (OSM Analytics and other tools), review imagery, and set up digitization tasks with the Tasking Manager;
+  - Collecting, reviewing, uploading and validating data;
+  - (If time allows, more on logistics, safety and communications)
+
+  The goal is to give an overview of several existing options and choices to make, and to get some
+  hands-on experience with a couple of these tools!%
+}
+% ------------------------------------
+
+\newtimeslot{12:30}
+% T061
+% room: De Donato
+% slot: 7
+\abstractDeDonato{Simon Poole}%
+{An excursion in to the world of OSM tagging presets}%
+{}%
+{%
+  Tagging presets have a large influence on how and in how much detail OSM contributors map.
+  OpenStreetMap affords itself the luxury of multiple completely separate, independently developed
+  preset systems.
+
+  The talk investigates how different the systems are and how, if at all, this reflects in map data
+  contributions.%
+}
+% T068
+% room: S.0.2
+% slot: 7
+\abstractTwo{Olivier Courtin}%
+{How Deep Learning could help to improve OSM Data Quality ?}%
+{}%
+{%
+  How DeepLearning, and semantic segmentation, can be an efficient way to detect and spot
+  inconsistency in OSM dataset ? 
+
+  Machine and DeepLearning can succeed to tackle some old issues, in a far more convenient and
+  efficient way than ever before… For instance DeepLearning, with aerial imagery semantic
+  segmentation can improve features detection ability and allow us to spot dataset inconsistencies.
+  
+  In this presentation we will focus on how an OpenStreetMap subset dataset (for instance roads and
+  buildings on an area), can be evaluated to produce quality metric.
+  
+  We wanna focus on:
+  
+  Deep Learning vision, and specific Satellite imagery considerations (high and low resolutions,
+  multispectral dimensions, dataset aggregation…)
+  
+  How to qualify a good enough labelled DataSet (to allow supervised learning)
+  
+  FOSS4G (PostGIS and Grass) integration with Python ML/DL framework
+  
+  Concrete solution for efficient treatments for wide coverages%
+}
+
+% ------------------------------------
+
+\newtimeslot{14:10}
+% T094
+% room: De Donato
+% slot: 9
+\abstractDeDonato{Sarah Hoffmann}%
+{Addressing addresses}%
+{}%
+{%
+  We are all used to describe locations with words. The concept is universally known as addresses.
+  You put them on postcards and letters and expect that you find the right places on the map when
+  you put them in the search box on openstreetmap.org. For a computer this can be surprisingly
+  challenging because addresses can take many shapes and forms in different regions of the world.
+  This talk looks into different address formats in the real world, the different ways addresses can
+  be tagged in OSM and how they can be efficiently processed.%
+}
+% T093
+% room: S.0.2
+% slot: 9
+\abstractTwo{Ben Abelshausen, Joost Schouppe}%
+{The Belgian perspective to building OpenStreetMap community}%
+{}%
+{%
+  SotM should be about building community. As a maturing volunteer organisation, OSM Belgium think
+  we can offer some guidance to new organizers and share insights to what OSMF could do to make our
+  lives easier. We focus our talk on how we did as little as possible to become a serious
+  conversation partner for outside organisations and how we deal with turning mappers into a
+  volunteers in a multi-language and divided country. Key insights: find a little money, find a
+  common voice, find shoulders to ride on, show off what you've got.%
+}
+% None
+% room: S.1.5
+\abstractFour{}%
+{Lightning Talks 1}%
+{}%
+{%
+  \vspace{-2em}
+  \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item \emph{Nicole Martinelli}: OpenStreetMaps for emergency prep: The view from San Francisco
+    \item \emph{Daniel Mietchen}: Wikimedia in disaster management and humanitarian aid: an overview
+    \item \emph{Janet Chapman}: Crowd2Map Tanzania - helping protect girls from FGM and empower
+      rural communities
+    \item \emph{Laura Mugeha}: Role of mapping in achieving the Sustainable Development Goals(SDGs)
+  \end{itemize}
+}
+% ------------------------------------
+
+
+\newtimeslot{14:40}
+% T128
+% room: De Donato
+% slot: 10
+\abstractDeDonato{Julian Simioni}%
+{2, 4, 6, 8, Here's How We Interpolate}%
+{}%
+{%
+  The work done by our community to build the OpenStreetMap dataset is incredible but like any data
+  project, it will never “be done”. Our world is constantly changing and we need tools that help us
+  make the most of what we have. Address interpolation is one of those tools.
+
+  In this talk we’ll explore the following questions:
+  * What is Address Interpolation?
+  * How does it work in OpenStreetMap?
+  * I’m a developer! What can I do to help address interpolation?
+  * I’m an editor! What can I do to make address interpolation better?
+  * How can I use OpenStreetMap to get to dinner?
+  
+  This will be a first-hand account of the benefits and lessons learned from building the address
+  interpolation engine for the Pelias Geocoder based heavily on OpenStreetMap data. You’ll walk away
+  with the knowledge of how OpenStreetMap, with address interpolation, can help you find that new
+  cafe before anyone else.
+%
+}
+
+% T135
+% room: S.0.2
+% slot: 10
+\abstractTwo{Kshitiz Khanal}%
+{A new approach to garner prolific contribution in OpenStreetMap}%
+{}%
+{%
+  OpenStreetMap's model of crowdsourcing data from volunteers is its greatest strength, and
+  biggest challenge as this leads to gaps in OSM data, especially in developing regions. Predominant
+  methods of engagement eg. mapping parties exhibit limited success in sustaining participation,
+  which curbs the fulfillment of data gap. To engage youth from under-mapped regions in enriching
+  local OSM data, while also developing their skills for the digital age as an alternative model to
+  participate in OSM community, we designed the Digital Internship and Leadership (DIAL) program.
+
+  We will present our experiences with designing and conducting two cohorts of DIAL (for 8+22 youths)
+  as a remote internship program, along with our assessment of DIAL’s impact in filling data gap and
+  challenges observed. We found that DIAL helps 1) in mapping those areas significantly faster, 2)
+  sustaining motivation of interns during the program, and 3) developing their civic awareness and
+  digital leadership skills. Results from DIAL can be helpful in designing programs for engagement in
+  OSM and similar communities.%
+}
+% W016
+% room: S.1.5
+% slot: 10
+% slot: 11
+\abstractFour{Kathleen Lu}%
+{The LWG Presents: GDPR Implementation for OSM}%
+{}%
+{%
+  The EU General Data Protection Regulation (GDPR) is an important data privacy law that comes into
+  effect on May 25, 2018. 
+
+  SotM will be two months after the beginning of GDPR implementation. The Legal/Licensing Working
+  Group has been hard at work to prepare OSM for this new law and hopes to use the opportunity to
+  explain GDPR and its impact on OSM, how OSMF has been responding, answer questions, and assist OSM
+  projects maintainers. 
+  
+  This session will be targeted to helping OSM community projects that use personal data understand
+  GDPR compliance, in particular the mechanisms that OSMF will be putting into place to facilitate
+  compliance. 
+
+  Anticipated structure:
+   - GDPR basics
+   - Why GDPR matters to OSM
+   - How OSMF is implementing GDPR
+   - GDPR's impact on community projects
+   - OSMF's template agreement
+   - Tips for your project complying with GDPR
+   - Walkthrough of specific project example
+   - Q\&A
+%
+}
+% ------------------------------------
+
+
+\newtimeslot{15:10}
+% T058
+% room: De Donato
+% slot: 11
+\abstractDeDonato{Victor Shcherb}%
+{OsmAnd making live maps update}%
+{}%
+{%
+  I would like to explain what difficulties we encountered while making OsmAnd maps updated every hour / every 5 minutes.%
+}
+% T132
+% room: S.0.2
+% slot: 11
+\abstractTwo{Oisin Herriott}%
+{Building up the Microsoft Open Maps Team}%
+{}%
+{%
+  Microsoft has slowly been building up it's capabilities for contributing to OpenStreetMap through it's Open Maps team
+(https://github.com/Microsoft/Open-Maps). The idea for the Open Maps team is to work alongside other paid mapping teams and the larger OSM community to help close gaps in data for areas important to Microsoft. Curating content and contributing to a database that Microsoft does not own outright is a new concept.  Our team has been able to ride wave of an increasingly Open Source friendly environment at Microsoft to make this happen.
+
+In this talk Microsoft will describe some of the challenges for setting up a new mapping team within the much larger organization and the balancing act of working with the community while being mindful of Microsoft priorities. The team will show it's focused on quality through formalized training, editor metrics and the development of internal workflows that emphasize quality over quantity and how that ultimately scales.
+%
+}
+
+% ------------------------------------
+
+\newtimeslot{16:10}
+% T121
+% room: De Donato
+% slot: 13
+\abstractDeDonato{Frederik Ramm}%
+{Lies, damned lies, and OSM statistics}%
+{}%
+{%
+  When people who are unfamiliar with OpenStreetMap try to evaluate OpenStreetMap data
+  statistically, many things can go wrong. There are just too many things you can count - how many
+  of what are there, how richly attributed, how many contributors have added something, during what
+  time, and what does that say about the data quality of OpenStreetMap and the interests of its
+  contributors?
+
+  This talk aims to introduce researchers, statisticians, and data users to frequent fallacies and
+  misrepresentations. It explains how to arrive at meaningful statements about OpenStreetMap using,
+  among other things, Taginfo, Osmium, PostGIS, and a little bit of coding in a scripting language of
+  the user's choice.
+%
+}
+% T114
+% room: S.0.2
+% slot: 13
+\abstractTwo{Bogdan Petrea and Armin Gheorghina}%
+{Verifying Our Edits}%
+{}%
+{%
+  In this talk, the Telenav Mapping team will present a workflow that lets us regularly check how
+  the OSM community edits our map contributions. The process is based on comparing two OSM PBF files
+  from different times using PostgreSQL queries. The output contains both the the current and
+  previous states of map features edited by us, even if they have been deleted since. This method is
+  a viable alternative for using the big OSM planet history. It does not require a lot of processing
+  power or any big data knowledge. Anyone could use this method to compare a selection of edits to a
+  previous state.%
+}
+% T087
+% room: S.1.5
+% slot: 13
+\abstractFour{Paul Norman}%
+{Corporate Cartography: How the sausage gets made}%
+{}%
+{%
+  We use styles from companies regularly, but how they are developed is different from open styles
+  like OpenStreetMap Carto. In this talk, Paul takes you inside the corporate style development
+  process, it's different priorities, and how you end up with the crazy styles we get sometimes.%
+}
+% ------------------------------------
+
+
+\newtimeslot{16:40}
+% T063
+% room: De Donato
+% slot: 14
+\abstractDeDonato{Emanuela Mihut}%
+{An innovative approach to support OSM data generation }%
+{}%
+{%
+  Because very often, in the literature, manually generation of OSM data is described as a complex
+  and questioned process, it might be useful to support it by automated remote sensing approaches.
+  While automated approaches are not expected to deliver fully accurate results, they still could
+  save important work which may substantially reduce the digitizing efforts. The aim of this session
+  is to present our developed building extraction algorithm that combines an object-based (OBIA)
+  approach with a deep learning algorithm: convolutional neural network (CNN). The results (building
+  polygons) from the OBIA algorithm are used as training samples for CNN algorithm. The buildings
+  extraction algorithm will be further tested for usefulness in supporting the OSM initiative,
+  particularly in areas exposed to humanitarian crisis where OSM data does not exist at all. The
+  algorithm has been tested on RGB images. In all cases, it has provided promising results, with an
+  overall accuracy over 85\%.%
+}
+% T104
+% room: S.0.2
+% slot: 14
+\abstractTwo{Yantisa Akhadi}%
+{Mapping Competition with Focus on Quality: Lesson Learned}%
+{}%
+{%
+  Most, if not all, mapping competition have tendency to focus on quantity. While it was fairly easy
+  to count on how many object have been mapped and to determine the winner, the quality of edits
+  usually suffers. To overcome this, we developed and hosted UniBattleMapping competition in 2017,
+  participated by 50 mapping team from 17 universities in Indonesia. This competition put emphasize
+  on the quality of the edits. Every team contribution is checked using several validation tools. If
+  error was found, it would reduce the points acquired from the numbers of objects added. This
+  session will share the methodology, tools and lessons learned from the competition.%
+}
+% W009
+% room: S.1.5
+% slot: 14
+% slot: 15
+\abstractFour{Heather Leson}%
+{Open Gender Monologues}%
+{}%
+{%
+  In our session, \emph{Open Gender Monologues~-- unheard voices from the OSM community}, we want to
+  give the sate to the success and challenges for women and the LGBTQ community in the OpenStreetMap
+  space. We won't have a fixed panel or keynote speakers. Instead, we'll read stories from the women
+  and LGBTQ community participating out loud (some may be anonymous), to share with the community to
+  the various aspects of gender in this space. Attendees will also be invited to share their
+  experiences during the session. Lastly, we will have a reflection of how we can create a better
+  space to overcome gender disparity in our community.%
+}
+
+% ------------------------------------
+
+\newtimeslot{17:10}
+% T127
+% room: De Donato
+% slot: 15
+\abstractDeDonato{Sajjad Anwar}%
+{Pinpointing the power grid}%
+{}%
+{%
+  Over 1.2 billion people around the world lack access to electricity, most of them in rural areas of Sub Saharan Africa and Asia. An accurate map of infrastructure is critical to expand access to these people. Yet, the electricity network is often under-mapped and the schematics that do exist are not publicly available, or lack geospatial accuracy.
+
+In this talk, we'll describe our work with the World Bank to map the grid network in OpenStreetMap in an efficient and repeatable manner. We developed an approach using machine learning to identify areas likely to contain high-voltage towers and used this information to speed up human mappers more than 10-fold. We will highlight this strategy of augmenting human effort with machine learning and provide perspective on how this workflow might be applied to other challenges facing the mapping community.%
+}
+% T077
+% room: S.0.2
+% slot: 15
+\abstractTwo{Wille Marcel Lima Malheiro}%
+{Improving OSMCha for the community}%
+{}%
+{%
+  Any collaborative project needs to care about reviewing the contributions in order to maintain the quality of the data. OSMCha is one of the main OpenStreetMap quality assurance tools, it gives us a powerful interface to visualize a changeset and allows us to register if the changeset is good or if it causes some problem to the map. In 2018, our focus is to increment OSMCha with the features wished by the OSM community and engage more people to validate the map.
+
+In this talk, we’ll give an introduction about how OSMCha works and share the vision we have for its future.%
+}
+
+\newsmalltimeslot{19:30}
+\abstractOther{}{Social Event}{}{}{Old Fashion Milano}
