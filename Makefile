@@ -3,5 +3,9 @@ all: master.pdf
 master.pdf: *.tex */*.tex
 	pdflatex master.tex -interaction=nonstopmode && pdflatex -interaction=nonstopmode master.tex
 
-publish: master.pdf
+cropped.pdf: master.pdf
+	gs -o cropped.pdf -sDEVICE=pdfwrite -c "[/CropBox [28.3464 28.3464 325.9836 447.87312]" -c " /PAGES pdfmark" -f master.pdf
+
+publish: master.pdf cropped.pdf
 	scp master.pdf 1blu-rootserver:/var/www/html/sotm/booklet18/
+	scp cropped.pdf 1blu-rootserver:/var/www/html/sotm/booklet18/
