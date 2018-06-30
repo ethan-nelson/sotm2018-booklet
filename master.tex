@@ -1,9 +1,11 @@
 \documentclass[
 version=last,toc=bib,toc=graduated,toc=index,toc=listof,9pt,openany]{scrbook}
 %\pdfminorversion=4
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{dejavu}
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+\setmainfont{Source Sans Pro}
+\setsansfont{Source Sans Pro}
 
 \usepackage{ifmtarg}
 \usepackage{ifthen}
@@ -57,11 +59,6 @@ headsep=3mm, footskip=12mm
 
 \newcommand{\acro}[1]{{\textsmaller{#1}}} % macro for abbreviations with more than one capitalised letter
 
-% headings in DejaVu Sans Condensed
-\addtokomafont{sectioning}{\fontfamily{DejaVuSansCondensed-TLF}\selectfont}
-\addtokomafont{pageheadfoot}{\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}}
-\addtokomafont{pagenumber}{\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}}
-
 
 % title/metadata
 \title{State of the Map 2018}
@@ -84,8 +81,6 @@ headsep=3mm, footskip=12mm
 
 
 \begin{document}
-\lsstyle
-\usefont{T1}{DejaVuSansCondensed-TLF}{m}{n}
  
 \pagestyle{cropmarksstyle}
 \begin{titlepage}

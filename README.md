@@ -9,11 +9,15 @@ This repository is for the source code of the booklet of [State of the Map 2018 
 To build the booklet run:
 
 ```sh
-pdflatex master.tex
-pdflatex master.tex
+lualatex master.tex
+lualatex master.tex
 ```
 
 … or just use the makefile.
+
+Please note that this booklet is built using LuaLaTeX, not PDFLaTeX. Building
+requires at least TeXlive 2016 due to the usage of the quite new
+*scrlayer-scrpage2* package
 
 
 ## License

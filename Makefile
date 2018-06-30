@@ -1,7 +1,7 @@
 all: master.pdf
 
 master.pdf: *.tex */*.tex
-	pdflatex master.tex -interaction=nonstopmode && pdflatex -interaction=nonstopmode master.tex
+	lualatex master.tex -interaction=nonstopmode && lualatex -interaction=nonstopmode master.tex
 
 cropped.pdf: master.pdf
 	gs -o cropped.pdf -sDEVICE=pdfwrite -c "[/CropBox [28.3464 28.3464 325.9836 447.87312]" -c " /PAGES pdfmark" -f master.pdf
