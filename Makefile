@@ -1,6 +1,6 @@
 all: master.pdf
 
-master.pdf: *.tex */*.tex
+master.pdf: *.tex icons/*.pdf images-print/*.pdf wallpaper/*.pdf
 	lualatex master.tex -interaction=nonstopmode && lualatex -interaction=nonstopmode master.tex
 
 cropped.pdf: master.pdf
