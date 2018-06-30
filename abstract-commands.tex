@@ -39,6 +39,13 @@ height=169mm, contents={%
 height=169mm, contents={%
   \includegraphics{wallpaper/saturday-even.pdf}%
 }]{saturdayeven}
+\DeclareNewLayer[background, oddpage,  width=125mm,%
+height=169mm, contents={%
+  \includegraphics{wallpaper/saturday-odd-rotated.pdf}%
+}]{saturdayoddrotated}
+\newpairofpagestyles[scrheadings]{saturday-table}{}
+\AddLayersAtBeginOfPageStyle{saturday-table}{saturdayeven}
+\AddLayersAtBeginOfPageStyle{saturday-table}{saturdayoddrotated}
 \newpairofpagestyles[scrheadings]{saturday}{}
 \AddLayersAtBeginOfPageStyle{saturday}{saturdayeven}
 \AddLayersAtBeginOfPageStyle{saturday}{saturdayodd}
