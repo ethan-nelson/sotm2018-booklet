@@ -1,0 +1,43 @@
+% OSMF
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{wallpaper/osmf.pdf}%
+  }%
+]{osmfmap}
+\newpairofpagestyles{osmf}{}
+\AddLayersAtBeginOfPageStyle{osmf}{osmfmap}
+
+% Microsoft advertisement
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{sponsors/microsoft-cropped-compressed.pdf}%
+  }%
+]{microsoftadvertisement}
+\newpairofpagestyles{sponsor-microsoft}{}
+\AddLayersAtBeginOfPageStyle{sponsor-microsoft}{microsoftadvertisement}
+
+% Facebook advertisement
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{sponsors/facebook.pdf}%
+  }%
+]{facebookadvertisement}
+\newpairofpagestyles{sponsor-facebook}{}
+\AddLayersAtBeginOfPageStyle{sponsor-facebook}{facebookadvertisement}
+
+% Mapbox advertisement
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{sponsors/mapbox.pdf}%
+  }%
+]{mapboxadvertisement}
+\newpairofpagestyles{sponsor-mapbox}{}
+\AddLayersAtBeginOfPageStyle{sponsor-mapbox}{mapboxadvertisement}
