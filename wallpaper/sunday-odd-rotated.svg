@@ -8,10 +8,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="444.09448"
-   height="595.27557"
+   width="473.70078"
+   height="634.96063"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
    sodipodi:docname="sunday-odd-rotated.svg"
    viewBox="0 0 416.33858 558.07084">
   <sodipodi:namedview
@@ -23,16 +23,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-width="1366"
+     inkscape:window-height="708"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="214.64213"
-     inkscape:cy="309.53437"
+     inkscape:zoom="2"
+     inkscape:cx="345.2509"
+     inkscape:cy="333.63608"
      inkscape:current-layer="svg2"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="31"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -46,38 +46,38 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs6" />
   <path
-     d="m 33.218506,-2.8610231e-5 0,16.609252610231"
+     d="M 33.218506,-2.8610231e-5 V 16.609224"
      id="path4591"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="M 5.6444444e-7,33.218477 17.716536,33.218477"
+     d="M 5.6444444e-7,33.218477 H 17.716536"
      id="path4593"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 382.01278,-2.8610231e-5 0,16.609252610231"
+     d="M 382.01278,-2.8610231e-5 V 16.609224"
      id="path4595"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 416.33859,33.218477 -17.71654,0"
+     d="M 416.33859,33.218477 H 398.62205"
      id="path4597"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 382.01278,558.07086 0,-17.71653"
+     d="M 382.01278,558.07086 V 540.35433"
      id="path4601"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
@@ -89,7 +89,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     d="m 33.218506,540.35431 0,17.71655"
+     d="m 33.218506,540.35431 v 17.71655"
      id="path4605"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
@@ -112,12 +112,11 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:11px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Semi-Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3838-4"
-     transform="matrix(0,-1,1,0,0,0)"
+     transform="rotate(-90)"
      y="374.22321"
-     x="-317.57031"
-     sodipodi:linespacing="0%"><tspan
+     x="-317.57031"><tspan
        id="tspan3903"
        y="374.22321"
        x="-317.57031"
-       style="fill:#ffffff;fill-opacity:1">Sunday</tspan></text>
+       style="fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Source Sans Pro Bold';font-family:'Source Sans Pro';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Sunday</tspan></text>
 </svg>

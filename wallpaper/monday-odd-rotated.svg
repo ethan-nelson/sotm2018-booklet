@@ -11,7 +11,7 @@
    width="125mm"
    height="168mm"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
    sodipodi:docname="monday-odd-rotated.svg"
    viewBox="0 0 442.91339 595.27559">
   <sodipodi:namedview
@@ -23,15 +23,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-width="1366"
+     inkscape:window-height="708"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="1.1180167"
-     inkscape:cx="103.72821"
-     inkscape:cy="261.50778"
+     inkscape:zoom="1.5811144"
+     inkscape:cx="442.07509"
+     inkscape:cy="160.68448"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="31"
      inkscape:window-maximized="1"
      inkscape:current-layer="g5782"
      units="mm" />
@@ -63,15 +63,14 @@
     <text
        x="-483.98718"
        y="398.70038"
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        id="text3838-8"
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:11px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Semi-Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;"
-       sodipodi:linespacing="0%"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:11px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Semi-Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"><tspan
          x="-483.98718"
          y="398.70038"
          id="tspan3907"
-         style="fill:#ffffff;fill-opacity:1;">Monday</tspan></text>
+         style="fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Source Sans Pro Bold';font-family:'Source Sans Pro';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Monday</tspan></text>
     <path
        d="M 35.43353,1.771637 V 19.488173"
        id="path4591"
