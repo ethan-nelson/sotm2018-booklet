@@ -63,3 +63,35 @@
 ]{kaartmapsmeadvertisement}
 \newpairofpagestyles{sponsor-kaartmapsme}{}
 \AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{kaartmapsmeadvertisement}
+
+% Immobilare advertisement
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{sponsors/immobiliare.pdf}%
+  }%
+]{immobiliareadvertisement}
+\newpairofpagestyles{sponsor-immobiliare}{}
+\AddLayersAtBeginOfPageStyle{sponsor-immobiliare}{immobiliareadvertisement}
+
+% Telenav advertisement
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{sponsors/telenav-blue-bottom.pdf}%
+  }%
+]{telenavblue}
+\DeclareNewLayer[background,%
+  width=105mm,%
+  height=148mm,%
+  hoffset=10mm,%
+  voffset=10mm,%
+  contents={%
+    \includegraphics{sponsors/telenav.pdf}%
+  }%
+]{telenav}
+\newpairofpagestyles{sponsor-telenav}{}
+\AddLayersAtBeginOfPageStyle{sponsor-telenav}{telenav}
+\AddLayersAtBeginOfPageStyle{sponsor-telenav}{telenavblue}
