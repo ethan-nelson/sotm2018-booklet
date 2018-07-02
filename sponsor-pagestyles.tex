@@ -9,6 +9,17 @@
 \newpairofpagestyles{osmf}{}
 \AddLayersAtBeginOfPageStyle{osmf}{osmfmap}
 
+% metro map of Milan
+\DeclareNewLayer[background,%
+  width=125mm,%
+  height=168mm,%
+  contents={%
+    \includegraphics{wallpaper/metro.pdf}%
+  }%
+]{metromap}
+\newpairofpagestyles{metro}{}
+\AddLayersAtBeginOfPageStyle{metro}{metromap}
+
 % Microsoft advertisement
 \DeclareNewLayer[background,%
   width=125mm,%
