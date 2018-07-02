@@ -27,9 +27,9 @@
      inkscape:window-height="708"
      id="namedview17"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="345.2509"
-     inkscape:cy="333.63608"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="438.21137"
+     inkscape:cy="271.34298"
      inkscape:current-layer="svg2"
      inkscape:window-x="0"
      inkscape:window-y="31"
@@ -100,23 +100,21 @@
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
-  <rect
+  <path
      style="fill:#009246;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     d="m 362.08167,242.49518 h 38.97637 v 116.26435 h -38.97637 z"
      id="rect3022-31"
-     y="234.74406"
-     x="362.08167"
-     ry="0"
-     height="124.01575"
-     width="38.976379" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
   <text
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:11px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Semi-Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
      xml:space="preserve"
      id="text3838-4"
      transform="rotate(-90)"
-     y="374.22321"
-     x="-317.57031"><tspan
+     y="373.78131"
+     x="-320.1445"><tspan
        id="tspan3903"
-       y="374.22321"
-       x="-317.57031"
-       style="fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Source Sans Pro Bold';font-family:'Source Sans Pro';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Sunday</tspan></text>
+       y="373.78131"
+       x="-320.1445"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.3125px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#ffffff;fill-opacity:1">Sunday</tspan></text>
 </svg>
