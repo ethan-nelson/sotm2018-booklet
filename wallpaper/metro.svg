@@ -29,13 +29,13 @@
      id="namedview13"
      showgrid="false"
      units="mm"
-     inkscape:zoom="0.55900836"
-     inkscape:cx="445.05443"
-     inkscape:cy="442.67619"
+     inkscape:zoom="3.1622288"
+     inkscape:cx="97.963435"
+     inkscape:cy="174.70684"
      inkscape:window-x="0"
      inkscape:window-y="31"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="g9751" />
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5082,7 +5082,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:2px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#3a3a3a;fill-opacity:1"
          y="345.98825"
          x="-173.25342"
-         sodipodi:role="line">Inofficial metro map</tspan><tspan
+         sodipodi:role="line">Unofficial metro map</tspan><tspan
          id="tspan8749"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:2px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro';fill:#3a3a3a;fill-opacity:1"
          y="358.37888"
