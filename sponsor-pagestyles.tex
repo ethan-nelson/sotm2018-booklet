@@ -149,6 +149,32 @@
 \AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{mapillary}
 \AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{cropmarksevery}
 
+% double map page
+\DeclareNewLayer[background,%
+  evenpage,
+  width=115mm,%
+  height=158mm,%
+  hoffset=5mm,
+  voffset=5mm,
+  contents={%
+    \includegraphics[width=115mm]{images-print/city-left.png}%
+  }%
+]{cityleft}
+\DeclareNewLayer[background,%
+  oddpage,
+  width=115mm,%
+  height=158mm,%
+  hoffset=5mm,
+  voffset=5mm,
+  contents={%
+    \includegraphics[width=115mm]{images-print/city-right.png}%
+  }%
+]{cityright}
+\newpairofpagestyles{citymap}{}
+\AddLayersAtBeginOfPageStyle{citymap}{cityleft}
+\AddLayersAtBeginOfPageStyle{citymap}{cityright}
+\AddLayersAtBeginOfPageStyle{citymap}{cropmarksevery}
+
 % back cover
 \DeclareNewLayer[background,%
   width=115mm,%
