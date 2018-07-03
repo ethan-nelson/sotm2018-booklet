@@ -148,3 +148,17 @@
 \AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{garmin}
 \AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{mapillary}
 \AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{cropmarksevery}
+
+% back cover
+\DeclareNewLayer[background,%
+  width=115mm,%
+  height=158mm,%
+  hoffset=5mm,
+  voffset=5mm,
+  contents={%
+    \includegraphics[width=115mm]{images-print/campus.png}%
+  }%
+]{campus}
+\newpairofpagestyles{backcover}{}
+\AddLayersAtBeginOfPageStyle{backcover}{campus}
+\AddLayersAtBeginOfPageStyle{backcover}{cropmarksevery}
