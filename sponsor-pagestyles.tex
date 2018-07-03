@@ -185,6 +185,22 @@
     \includegraphics[width=115mm]{images-print/campus.png}%
   }%
 ]{campus}
+\definecolor{sotmgreen}{cmyk}{1.0 0.0 0.52 0.43}
+\usetikzlibrary{positioning}
+\DeclareNewLayer[background,%
+  width=115mm,%
+  height=158mm,%
+  hoffset=79mm,
+  voffset=95mm,
+  contents={%
+    \begin{tikzpicture}[x=1mm, y=1mm]
+      \node[inner sep=1.5mm, circle, fill, sotmgreen] (n1) {};
+      \node[above=1mm of n1] {\Large \textcolor{sotmgreen}{\textbf{SotM}}};
+    \end{tikzpicture}
+  }%
+]{campussotmmarker}
 \newpairofpagestyles{backcover}{}
+\AddLayersAtBeginOfPageStyle{backcover}{campussotmmarker}
+\AddLayersAtBeginOfPageStyle{backcover}{campus}
 \AddLayersAtBeginOfPageStyle{backcover}{campus}
 \AddLayersAtBeginOfPageStyle{backcover}{cropmarksevery}
