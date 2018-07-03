@@ -95,3 +95,27 @@
 \newpairofpagestyles{sponsor-telenav}{}
 \AddLayersAtBeginOfPageStyle{sponsor-telenav}{telenav}
 \AddLayersAtBeginOfPageStyle{sponsor-telenav}{telenavblue}
+
+% Garmin and Mapillary advertisement
+\DeclareNewLayer[background,%
+  width=115mm,%
+  height=79mm,%
+  hoffset=5mm,
+  voffset=84mm,
+  contents={%
+    \includegraphics{sponsors/garmin-compressed.pdf}%
+  }%
+]{garmin}
+\DeclareNewLayer[background,%
+  width=115mm,%
+  height=79mm,%
+  hoffset=5mm,%
+  voffset=5mm,%
+  contents={%
+    \includegraphics{sponsors/mapillary-compressed.pdf}%
+  }%
+]{mapillary}
+\newpairofpagestyles{sponsor-garmin-mapillary}{}
+\AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{garmin}
+\AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{mapillary}
+\AddLayersAtBeginOfPageStyle{sponsor-garmin-mapillary}{cropmarksevery}
