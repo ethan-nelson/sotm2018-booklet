@@ -54,15 +54,44 @@
 \AddLayersAtBeginOfPageStyle{sponsor-mapbox}{mapboxadvertisement}
 
 % Kaart/Maps.Me advertisement
+\definecolor{kaartblack}{cmyk}{0.16 0.11 0.0 0.78}
+%\definecolor{mapsmegrey}{cmyk}{0.0 0.0 0.0 0.20}
+\definecolor{mapsmegrey}{HTML}{CCCCCC}
 \DeclareNewLayer[background,%
   width=125mm,%
   height=168mm,%
+  hoffset=5mm,
+  voffset=5mm,
   contents={%
-    \includegraphics{sponsors/kaart-mapsme.pdf}%
+    \begin{tikzpicture}[x=1mm, y=1mm]
+      \fill [kaartblack] (0,0) rectangle (115,79);
+      \fill [mapsmegrey] (0,79) rectangle (115,158);
+    \end{tikzpicture}
   }%
-]{kaartmapsmeadvertisement}
+]{kaartblackbackground}
+\DeclareNewLayer[background,%
+  width=68.843mm,%
+  height=15.495mm,%
+  hoffset=28.08mm,
+  voffset=105.505mm,
+  contents={%
+    \input{images-print/kaart.tex}
+  }%
+]{kaarttext}
+\DeclareNewLayer[background,%
+  width=89.745mm,%
+  height=24.036mm,%
+  hoffset=17.63mm,
+  voffset=32.482mm,
+  contents={%
+    \includegraphics[width=89.745mm]{images-print/mapsme.png}
+  }%
+]{mapsmelogo}
 \newpairofpagestyles{sponsor-kaartmapsme}{}
-\AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{kaartmapsmeadvertisement}
+\AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{kaarttext}
+\AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{mapsmelogo}
+\AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{kaartblackbackground}
+\AddLayersAtBeginOfPageStyle{sponsor-kaartmapsme}{cropmarksevery}
 
 % Immobilare advertisement
 \DeclareNewLayer[background,%
