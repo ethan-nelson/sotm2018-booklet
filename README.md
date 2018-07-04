@@ -20,6 +20,10 @@ requires at least TeXlive 2016 due to the usage of the quite new
 *scrlayer-scrpage2* package
 
 
+## Contributing
+
+The booklet has been sent to the print shop. Therefore, changes to the content, layout etc. do not have any benefit any more.
+
 ## License
 
 This booklet is licensed under [Creative Commons Attribution Share-Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/) if not otherwise stated. Logos and advertisements of companies and other organisations are not available under that license. The OpenStreetMap logo is available under the terms of [CC-BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/).
